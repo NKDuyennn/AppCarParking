@@ -58,14 +58,14 @@ public class FindLotFragment extends Fragment implements OnMapReadyCallback {
 
     LatLng DevicelatLng;
     ArrayList<LatLng> placelist = new ArrayList<LatLng>();
-    LatLng dhanmondi = new LatLng(21.004854, 105.845505);
-    LatLng mugdaHospital = new LatLng(21.005193, 105.844905);
-    LatLng mugdaBTCL = new LatLng(21.004030, 105.844522);
+    LatLng dhanmondi = new LatLng(21.009786, 105.535162);
+    LatLng mugdaHospital = new LatLng(21.009786, 105.535162);
+    LatLng mugdaBTCL = new LatLng(21.009786, 105.535162);
 
     ArrayList<String> title = new ArrayList<String>();
-    String dhanmondi_shukrabaad = "Bãi đỗ xe D3";
-    String mugdaparaHospital = "Bãi đỗ xe C7";
-    String mugdaparaBTCLoffice = "Bãi đỗ xe C9";
+    String dhanmondi_shukrabaad = "IOT24 Smart Parking";
+    String mugdaparaHospital = "IOT24 Smart Parking";
+    String mugdaparaBTCLoffice = "IOT24 Smart Parking";
     DatabaseReference databaseReference;
 
     AutoCompleteTextView inputSearch;
